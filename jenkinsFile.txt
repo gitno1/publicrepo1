@@ -1,0 +1,13 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Build stage..'
+            }
+        }
+
+    }
+}
+Toggle Scripted Pipeline (Advanced)
